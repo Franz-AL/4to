@@ -38,7 +38,6 @@ class Polinomio {
             if(i > 0 && c > 0){
                 s += "+";
             }
-e
             if(e == 0){
                 s += c;
             } else {
