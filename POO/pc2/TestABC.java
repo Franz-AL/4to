@@ -22,8 +22,9 @@ class B extends A{
 		this.b = b;
 		this.c = c;
 	}
+	@Override
 	void print(){
-		System.out.println("a = '" + a + "' , b = '" + b + "' , c = '" + c + "'");
+		System.out.println("a = '" + a + "' , b = '" + b + "' , c = '" + c.c + "'");
 	}
 }
 public class TestABC{
